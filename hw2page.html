@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thecodehelpcard</title>
+    <style>
+
+        body{
+            font-family:'Roobert',sans-serif;
+        }
+
+        figcaption{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        img
+        {
+            border-radius: 17px;
+            margin-bottom: 36px;
+        }
+        .cap{
+            display: flex;
+        }
+        hr{
+            opacity: 50%;
+        }
+        .cap{
+            display: flex;
+        }
+        .price{
+            font-size: 35px;
+            font-weight: bold;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+            box-shadow: 1px 5px 10px black;
+            border-radius: 17px;
+            cursor: pointer;
+            width: 625px;
+        }
+        #getAtPrice{
+            color: rgba(65, 65, 158, 0.926);
+        }
+        #actualPrice{
+            color: #2b191c;
+        }
+
+        #discount{
+            background-color:rgb(28, 208,124);
+            border-radius: 13px;
+            padding: 7px;
+            font-size: 80%;
+            color: white;
+        }
+</style>
+</head>
+<body>
+    <div class="content">
+        <figure>
+            <img style height="325" src="Web_Dev.jpg" alt="MERN Image">
+            <div class="cap">
+                <figcaption>
+                    Web Development Master Course<br>  @dot Batch <hr>
+                </figcaption>
+           </div>
+           <div class="price">
+            <span id="getAtPrice">₹4500</span>
+            <span id="actualPrice"><del>₹6999</del></span>
+            <span id="discount">42%off</span>
+           </div>
+        </figure>
+    </div>
+</body>
+</html>
